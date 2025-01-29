@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  .container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100% ;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(423e998884b603c3889822e8be6c8832.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: gray;
+}
+.container label{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+.container{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(0);
+    text-align: center;
+    color: #fff
+}
